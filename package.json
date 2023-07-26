@@ -4,7 +4,8 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "start": "node server.js"
+    "dev": "node api.js && nodemon app.js",
+    "start": "node api.js && node app.js"
   },
   "author": "cody",
   "license": "MIT",
